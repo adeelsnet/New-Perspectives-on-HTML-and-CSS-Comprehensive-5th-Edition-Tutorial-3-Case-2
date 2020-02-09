@@ -1,0 +1,89 @@
+﻿/*
+   New Perspectives on HTML and CSS
+   Tutorial 3
+   Case Problem 2
+
+   Mountain Wheels Text and Color Style
+   Author: Adeel Ahmed
+   Date:   Feb-28, 2019
+
+   Filename:         mw_styles.css
+   Supporting Files: none
+
+*/
+
+body {
+   font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#articleheader {
+   font-size: 18px;
+   font-weight: normal;
+   letter-spacing: 7px;
+   text-align: center;
+}
+
+nav {
+   background-color: rgb(125, 120, 89);
+   line-height: 3em;
+}
+
+nav li {
+   list-style-type: none;
+}
+
+nav a {
+   color: rgb(255, 250, 250, 0.5);
+   text-decoration: none;
+}
+
+nav a:hover,
+li:hover {
+   background-color: rgb(131, 121, 36);
+   color: yellow;
+   list-style-image: url("../img/wheelmarker.png");
+}
+
+#leftsection>p {
+   font-size: 22px;
+}
+
+#leftsection>p:first-of-type::first-line {
+   text-transform: uppercase;
+}
+
+blockquote {
+   background-color: rgb(131, 121, 36);
+   color: white;
+   font-size: 16px;
+   font-family: 'Comic Sans MS', Times, cursive;
+}
+
+blockquote>p::before,
+blockquote>p::after {
+   content: '"';
+}
+
+#rightsection h1 {
+   font-size: 22px;
+   letter-spacing: 3px;
+   font-weight: normal;
+   text-align: center;
+}
+#rightsection h2 {
+   font-size: 18px;
+   text-align: right;
+   font-weight: normal;
+}
+
+#rightsection p {
+   color: gray;
+   font-size: 14px;
+   text-align: justify;
+}
+
+address {
+   font-size: 16px;
+   font-style: normal;
+   text-align: center;
+}
